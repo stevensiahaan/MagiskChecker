@@ -1,5 +1,21 @@
+apply plugin: 'com.novoda.bintray-release'
 apply plugin: 'com.android.library'
-apply from: 'publish.gradle'
+
+
+publish {
+
+    def groupProjectID = 'com.stevensiahaan.magiskchecker'
+    def artifactProjectID = 'magiskchecker'
+    def publishVersionID = '0.1.0'
+
+    userOrg = 'stevensiahaan'
+    repoName = 'MagiskChecker'
+    groupId = groupProjectID
+    artifactId = artifactProjectID
+    publishVersion = publishVersionID
+    desc = 'MagiskChecker is used to check whether your device already rooted by Magisk or not'
+    website = 'https://github.com/stevensiahaan/MagiskChecker'
+}
 
 android {
     compileSdkVersion 28
