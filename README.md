@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/stevensiahaan/MagiskChecker.svg)](https://jitpack.io/#stevensiahaan/MagiskChecker)
+
 # MagiskChecker
 MagiskChecker is used to check whether your device already rooted by Magisk or not
 
