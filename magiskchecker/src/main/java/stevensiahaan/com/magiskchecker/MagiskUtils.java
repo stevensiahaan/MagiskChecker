@@ -4,11 +4,11 @@ import java.io.File;
 
 public class MagiskUtils {
 
-    public static boolean isDeviceRooted() {
+    public boolean isDeviceRooted() {
         return isrooted1() || isrooted2();
     }
 
-    public static boolean isDeviceRootedByMagisk() {
+    public boolean isDeviceRootedByMagisk() {
         return isrooted1() || isrooted2() || checkForMagiskBinary();
     }
 
