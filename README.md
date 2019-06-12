@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/stevensiahaan/MagiskChecker.svg)](https://jitpack.io/#stevensiahaan/MagiskChecker)
+[![](https://jitpack.io/v/stevensiahaan/MagiskChecker.svg)](https://jitpack.io/#stevensiahaan/MagiskChecker) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 
 # MagiskChecker
 MagiskChecker is used to check whether your device already rooted by Magisk or not
