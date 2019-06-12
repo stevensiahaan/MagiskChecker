@@ -18,7 +18,7 @@ allprojects {
  **Step 2.** Add the dependency
 ```gradle
 dependencies {
-  implementation 'com.github.stevensiahaan:MagiskChecker:1.0'
+  implementation 'com.github.stevensiahaan:MagiskChecker:1.1'
 }
 ```
 #### Maven
@@ -35,8 +35,14 @@ dependencies {
  **Step 2.** Add the dependency
 ```xml
 <dependency>
-  <groupId>com.github.stevensiahaan</groupId>
-	    <artifactId>MagiskChecker</artifactId>
-	    <version>1.0</version>
+	<groupId>com.github.stevensiahaan</groupId>
+	<artifactId>MagiskChecker</artifactId>
+	<version>1.1</version>
 </dependency>
+```
+
+## Usage
+```java
+MagiskUtils magiskUtils = new MagiskUtils();
+Log.e(TAG, (magiskUtils.isDeviceRootedByMagisk() ? "Rooted" : "Not Rooted"));
 ```
